@@ -1,6 +1,6 @@
 <?php
 
-	mysql_connect("us-cdbr-azure-southcentral-f.cloudapp.net","b756bee20634b8","93d3da43");
-	mysql_select_db("chat3");
+	mysql_connect("us-cdbr-azure-southcentral-f.cloudapp.net","b87e13c9e227f0","20ab15ad");
+	mysql_select_db("chat4");
 
 ?>
