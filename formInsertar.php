@@ -5,7 +5,7 @@
 	<title>Document</title>
 </head>
 <body>
-	<form action="insertar.php" method="POST">
+	<form action="insertar.php" method="GET">
 		<input type="text" name="mensaje">
 		<input type="submit" value="Enviar">
 	</form>
