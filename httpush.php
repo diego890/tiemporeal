@@ -1,5 +1,5 @@
 <?php 
-	$con = mysqli_connect("us-cdbr-azure-southcentral-f.cloudapp.net","b756bee20634b8","93d3da43","chat3");
+	$con = mysqli_connect("us-cdbr-azure-southcentral-f.cloudapp.net","b87e13c9e227f0","20ab15ad","chat4");
 	set_time_limit(0);
 
 	$fecha_ac = isset($_POST['timestamp']) ? $_POST['timestamp']:0;
