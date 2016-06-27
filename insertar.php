@@ -5,7 +5,8 @@
 	$timestamp = date("Y-m-d H:i:s");
 
 	$sql = "INSERT INTO mensajes values ('','$mensaje','$timestamp')";
-	echo $res = mysqli_query($con,$sql) or die (mysqli_error());
+	echo "hola" ;
+	$res = mysqli_query($con,$sql) or die (mysqli_error());
 	header("Location: formInsertar.php");
 
  ?>
