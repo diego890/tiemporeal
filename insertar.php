@@ -9,5 +9,7 @@
 	
    	
    	$res = mysqli_query($con,$sql) or die (mysqli_error());
+   	echo($mensaje);
+   	echo($timestamp);
 	//header(Location: formInsertar.php);
  ?>
