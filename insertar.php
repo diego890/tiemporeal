@@ -5,7 +5,7 @@
 	$mensaje = $_POST['mensaje'];
 	$timestamp = date("Y-m-d H:i:s");
 
-	$sql = "INSERT INTO mensajes values ('','$mensaje','$timestamp')";
+	$sql = "INSERT INTO mensajes values (null,'$mensaje',now())";
 	
    	
    	$res = mysqli_query($con,$sql) or die (mysqli_error());
